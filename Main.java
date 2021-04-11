@@ -3,8 +3,8 @@ package ticket_genrator;
 
 public class Main {
 	//Array to allocate 20*5 slots in shopping mall
-	static Integer noOfFloors=1;
-	static Integer spaceAtEachFloor=5;
+	static Integer noOfFloors=5;
+	static Integer spaceAtEachFloor=20;
 	static String[][] slots=new String[noOfFloors*spaceAtEachFloor][];
 	 
 	public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class Main {
 		Integer choice =Menu.menu();
 			switch(choice) {
 			case 1:
-				//Ticket genrator
+				//Ticket generator
 				System.out.println();
 				System.out.println("----Ticket Genrator---");
 				System.out.println();
